@@ -25,7 +25,7 @@ Simulations done with **inSANE_HAPEX** are fully reproducible, considering that 
 We kindly ask users to cite the following reference in any publications reporting work done with **inSANE_HAPEX**:
 
 ```
-@misc{STONEHENGE,
+@misc{inSANE_HAPEX,
    author.      = {Estevão Fuzaro de Almeida and Lucas Veronez Goulart Ferreira and Estênio Fuzaro de Almeida and João Pedro Fernandes Salvador},
    title        = { in{SANE_HAPEX} - {G}lobal {S}ensitivity {A}nalysis of an {E}nergy {H}arvesting {S}ystem with {P}eriodic {E}xcitation via {S}obol {I}ndices},
    year         = {2021},
