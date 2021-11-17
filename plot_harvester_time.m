@@ -1,5 +1,9 @@
 function plot_harvester_time(time,x1,x2,line,text,type,param,parName)
 
+    set(groot,'defaultAxesTickLabelInterpreter','latex');
+    set(groot,'defaultLegendInterpreter','latex');
+    set(groot,'defaultTextInterpreter','latex');
+
 if contains(type,'Volt')==1
     figure()
     set(gcf,'Units','Normalized','OuterPosition',[0 0 1 1])
@@ -7,7 +11,7 @@ if contains(type,'Volt')==1
     set(gca,'fontsize',text,'XColor','k','YColor','k','ZColor','k','GridColor','k');
     grid on
     grid minor
-    title([strcat(parName(1:end-1),' = '), num2str(param),' $'],'FontWeight','normal');
+    title([strcat(parName(1:end-1),' = '), num2str(param),'$'],'FontWeight','normal');
     xlabel('Time','fontsize',text);
     ylabel('Voltage','fontsize',text);
     
@@ -17,7 +21,7 @@ elseif contains(type,'Mass')==1
     plot(time,x1,'r',time,x2,'k','LineWidth',line);
     set(gca,'fontsize',text,'XColor','k','YColor','k','ZColor','k','GridColor','k');
     grid on, grid minor, hold on
-    title([strcat(parName(1:end-1),' = '), num2str(param),' $'],'FontWeight','normal');
+    title([strcat(parName(1:end-1),' = '), num2str(param),'$'],'FontWeight','normal');
     legend('Mass 1','Mass 2')
     xlabel('Time','fontsize',text);
     ylabel('Displacement','fontsize',text);

@@ -63,16 +63,16 @@ disp(' ')
 disp('---   DEFINING MODEL PARAMETERS  ---');
 chi_n    = 0.05;        % piezoeletric coupling term (mechanical)
 f_n      = 0.20;        % excitation amplitude
-%k1_n     = 0.09;        % mechanical stiffness k1
+k1_n     = 0.09;        % mechanical stiffness k1
 k2_n     = 0.02;        % mechanical stiffness k2
 kappa_n  = 0.50;        % piezoeletric coupling term (eletrical)
 Lambda_n = 0.05;        % reciprocal time constant
-omega_n  = 0.80;        % excitation frequency
+%omega_n  = 0.80;        % excitation frequency
 zeta_n   = 0.04;        % mechanical damping ratio
 
-parName = '$k_1$';   % parameter name - options: '$\chi$';'$f$';'$k_1$';
+parName = '$\omega$';   % parameter name - options: '$\chi$';'$f$';'$k_1$';
                         % '$k_2$';'$\kappa$';'$\Lambda$';'$\omega$';'$\zeta$'
-parRange = 0.07:0.01:0.14;     % parameter range
+parRange = 0.7:0.05:1.0;     % parameter range
 
 %% 2 - DEFINING A STATISTICAL SEED AND INITIALIZING UQLAB
 disp(' ')
