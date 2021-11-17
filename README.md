@@ -21,7 +21,7 @@ Simulations done with **inSANE_HAPEX** are fully reproducible, considering that 
 - Estênio Fuzaro de Almeida
 - João Pedro Fernandes Salvador
 
-# Citing STONEHENGE
+# Citing inSANE_HAPEX
 We kindly ask users to cite the following reference in any publications reporting work done with **inSANE_HAPEX**:
 
 ```
