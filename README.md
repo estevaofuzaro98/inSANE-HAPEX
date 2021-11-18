@@ -1,4 +1,5 @@
 # inSANE_HAPEX
+![alt text](http://url/to/img.png)
 
 Final work developed for the course Uncertainty Quantification of the Graduate Program in Mechanical Engineering at the Faculty of Engineering of Ilha Solteira (FEIS/UNESP).
 
