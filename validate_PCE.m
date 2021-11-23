@@ -1,10 +1,5 @@
-function [X,Y,YPC] = validate_PCE(sample_size)
-
+function [X,Y,YPCE] = validate_PCE(sample_size,myModel,myPCE)
     X = uq_getSample(sample_size);
-    
-    for ii=1:size(X,1)
-        Y(ii,:) = harvester_solver_sobol(X(ii,:)); %#ok<AGROW>
-    end
-    
-    YPC = uq_evalModel(X);
+    Y = uq_evalModel(myModel,X);
+    YPCE = uq_evalModel(myPCE,X);
 end

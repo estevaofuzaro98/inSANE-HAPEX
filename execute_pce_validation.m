@@ -94,11 +94,11 @@ mySobolResultsPCE = mySobolAnalysisPCE.Results;
 % VALIDATING PCE MODEL
 disp(' ')
 disp(' ---     VALIDATING PCE MODEL     ---');
-[X,Y,YPC] = validate_PCE(5e2);
+[X,Y,YPCE] = validate_PCE(5e2,myModel,myPCE);
 
 figure()
 set(gcf,'Units','Normalized','OuterPosition',[0 0 1 1])
-plot(Y,YPC,'rx','MarkerSize',marker,'LineWidth',line)
+plot(Y,YPCE,'rx','MarkerSize',marker,'LineWidth',line)
 set(gca,'fontsize',text,'XColor','k','YColor','k','GridColor','k');
 hold on, grid on, grid minor, pbaspect([1 1 1])
 rule = linspace(min(Y),max(Y),2);
