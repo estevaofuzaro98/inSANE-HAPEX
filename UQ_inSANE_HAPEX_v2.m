@@ -65,14 +65,14 @@ chi_n    = 0.05;        % piezoeletric coupling term (mechanical)
 f_n      = 0.20;        % excitation amplitude
 k1_n     = 0.09;        % mechanical stiffness k1
 k2_n     = 0.02;        % mechanical stiffness k2
-kappa_n  = 0.50;        % piezoeletric coupling term (eletrical)
+%kappa_n  = 0.50;        % piezoeletric coupling term (eletrical)
 Lambda_n = 0.05;        % reciprocal time constant
-%omega_n  = 0.80;        % excitation frequency
+omega_n  = 0.8;        % excitation frequency 0.8
 zeta_n   = 0.04;        % mechanical damping ratio
 
-parName = '$\omega$';   % parameter name - options: '$\chi$';'$f$';'$k_1$';
+parName = '$\kappa$';   % parameter name - options: '$\chi$';'$f$';'$k_1$';
                         % '$k_2$';'$\kappa$';'$\Lambda$';'$\omega$';'$\zeta$'
-parRange = 0.7:0.05:1.0;     % parameter range
+parRange = 0.10:0.10:0.50;     % parameter range
 
 %% 2 - DEFINING A STATISTICAL SEED AND INITIALIZING UQLAB
 disp(' ')
@@ -229,5 +229,9 @@ end
 %% 10 - PLOTTING
 disp(' ')
 disp('---       PLOTTING RESULTS       ---');
-plot_sobol_indices_range(Sobol_Results_Data_1st,Sobol_Results_Data_2nd,parRange,parName);
+if length(parRange)==1
+    plot_sobol_indices_single(Sobol_Results_Data_1st,Sobol_Results_Data_2nd);
+else
+    plot_sobol_indices_range(Sobol_Results_Data_1st,Sobol_Results_Data_2nd,parRange,parName);
+end
 toc
