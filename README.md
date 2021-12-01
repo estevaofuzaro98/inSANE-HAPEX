@@ -29,7 +29,6 @@ We kindly ask users to cite the following reference in any publications reportin
    author.      = {Estevão Fuzaro de Almeida and Lucas Veronez Goulart Ferreira and Estênio Fuzaro de Almeida and João Pedro Fernandes Salvador},
    title        = { in{SANE_HAPEX} - {G}lobal {S}ensitivity {A}nalysis of an {E}nergy {H}arvesting {S}ystem with {P}eriodic {E}xcitation via {S}obol {I}ndices},
    year         = {2021},
-   journal      = {Software Impacts},
    howpublished = {https://github.com/estevaofuzaro98/inSANE_HAPEX},
 }
 ```
