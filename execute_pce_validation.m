@@ -96,6 +96,8 @@ disp(' ')
 disp(' ---     VALIDATING PCE MODEL     ---');
 [X,Y,YPCE] = validate_PCE(5e2,myModel,myPCE);
 
+save VALIDATION X Y YPCE
+
 figure()
 set(gcf,'Units','Normalized','OuterPosition',[0 0 1 1])
 plot(Y,YPCE,'rx','MarkerSize',marker,'LineWidth',line)

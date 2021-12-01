@@ -29,6 +29,7 @@ function fig = plot_sobol_indices_range(SobolResults1st,SobolResults2nd,paramRan
     set(gca,'fontsize',18,'XColor','k','YColor','k','GridColor','k');
     grid on
     grid minor
+    ylim([0 1])
     ylabel('Sobol'' Index','fontsize',18); xlabel(paramName,'fontsize',18);
     legend({'$\chi$';'$f$';'$k_1$';'$k_2$';'$\kappa$';'$\Lambda$';...
         '$\omega$';'$\zeta$';'$f\omega$';'$\kappa\omega$';'$k_1 k_2$';...
