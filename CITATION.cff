@@ -5,11 +5,14 @@ title: inSANE_HAPEX
 authors:
   - family-names: Fuzaro de Almeida
     given-names: Estevão
+  - family-names: Ferreira
+    given-names: Lucas Veronez Goulart
   - family-names: Fuzaro de Almeida
     given-names: Estênio
+  - family-names: Salvador
+    given-names: João Pedro Fernandes
 title: "inSANE_HAPEX"
 version: 1.0.0
-doi: 10.5281/zenodo.1234
 date-released: 2021-12-01
 license: MIT
 url: "https://github.com/estevaofuzaro98/inSANE_HAPEX"
