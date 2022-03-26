@@ -4,13 +4,13 @@ abstract: This suite is an ensemble of codes developed to conduct a global sensi
 title: inSANE_HAPEX
 authors:
   - family-names: Fuzaro de Almeida
-    given-names: Estevão
+    given-names: Estev{\~a}o
   - family-names: Ferreira
     given-names: Lucas Veronez Goulart
   - family-names: Fuzaro de Almeida
-    given-names: Estênio
+    given-names: Est{\^e}nio
   - family-names: Salvador
-    given-names: João Pedro Fernandes
+    given-names: Jo{\~a}o Pedro Fernandes
 title: "inSANE_HAPEX"
 version: 1.0.0
 date-released: 2021-12-01
