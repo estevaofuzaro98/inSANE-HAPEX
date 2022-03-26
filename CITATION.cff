@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: If you use this suite, please cite it using these metadata.
+abstract: This suite is an ensemble of codes developed to conduct a global sensitivity analysis on an multimodal energy harvesting system with periodic excitation.
+title: inSANE_HAPEX
+authors:
+  - family-names: Fuzaro de Almeida
+    given-names: Estevão
+  - family-names: Fuzaro de Almeida
+    given-names: Estênio
+title: "inSANE_HAPEX"
+version: 1.0.0
+doi: 10.5281/zenodo.1234
+date-released: 2021-12-01
+license: MIT
+url: "https://github.com/estevaofuzaro98/inSANE_HAPEX"
